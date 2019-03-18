@@ -115,16 +115,16 @@ namespace Aenor.MigracionProductosInternacionales
             #endregion EJEMPLOS
 
 
-            #region PROCESA ISO
-            comunGlobal.LogText("__________ VOLCADO DE NORMAS ISO __________");
-            sW_iso = new Stopwatch();
-            sW_iso.Start();
-            new LanzadorISO().Iniciar(comunGlobal, oracleGlobal);
-            sW_iso.Stop();
-            comunGlobal.LogText("|_________/====> TIEMPO DE VOLCADO ISO: " + sW_iso.Elapsed.ToString());
-            #endregion PROCESA ISO
+            //#region PROCESA ISO
+            //comunGlobal.LogText("__________ VOLCADO DE NORMAS ISO __________");
+            //sW_iso = new Stopwatch();
+            //sW_iso.Start();
+            //new LanzadorISO().Iniciar(comunGlobal, oracleGlobal);
+            //sW_iso.Stop();
+            //comunGlobal.LogText("|_________/====> TIEMPO DE VOLCADO ISO: " + sW_iso.Elapsed.ToString());
+            //#endregion PROCESA ISO
 
-            comunGlobal.LogText("***********************************************************************");
+            //comunGlobal.LogText("***********************************************************************");
 
             #region PROCESA IEC
             comunGlobal.LogText("__________ VOLCADO DE NORMAS IEC __________");
