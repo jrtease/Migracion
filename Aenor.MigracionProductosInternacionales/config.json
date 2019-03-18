@@ -1,0 +1,4 @@
+{
+  "OracleEsquema": "YINYANG",
+  "OracleConnString": "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AENDESORACLE01)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=AENOR01)));User Id=YINYANG;Password=YINYANG;Connection Timeout=300;"
+}

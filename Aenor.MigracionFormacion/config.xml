@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <oracle>Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AENDESORACLE01)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=AENOR01)));User Id=YINYANG;Password=YINYANG;Connection Timeout=300;</oracle>
+  <!-- FORMACION DATOS -->
+  <crm>Url=https://aenorcrmdesarrollo.crm4.dynamics.com; Username=indra4@aenor.com; Password=DynamicsAdmin18; authtype=Office365</crm>
+  <!--<crm>Url=https://aenor.crm4.dynamics.com; Username=indra4@aenor.com; Password=DynamicsAdmin18; authtype=Office365</crm>-->
+  <!--<crm>Url=https://aenorpreproduccion.crm4.dynamics.com; Username=indra4@aenor.com; Password=DynamicsAdmin18; authtype=Office365</crm>-->
+  <buffer>200</buffer>
+  <gradoparalelismo>15</gradoparalelismo>
+  <timeoutminutos>15</timeoutminutos>
+  <defaultconnectionlimit>100</defaultconnectionlimit>
+  <logtextowebjob>false</logtextowebjob>
+  <fechainiincremental>0</fechainiincremental>
+  <!-- Formato: dd/MM/yyyy, para carga inicial '0'-->
+  <fechafinincremental>0</fechafinincremental>
+  <!-- Formato: dd/MM/yyyy, para carga inicial '0'-->
+</config>

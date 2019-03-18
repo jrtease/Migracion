@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <oracle>Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AENDESORACLE01)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=AENOR01)));User Id=YINYANG;Password=YINYANG;Connection Timeout=300;</oracle> <!-- PRE YINGYANG DATOS -->
+  <!--<oracle>Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.20.0.64)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=AENOR)));User Id=APLAENOR;Password=APLAENOR;Connection Timeout=300;</oracle>--> <!-- PRO YINYANG DATOS -->
+  <crm>Url=https://aenorcrmdesarrollo.crm4.dynamics.com; Username=indra4@aenor.com; Password=DynamicsAdmin18; authtype=Office365</crm>
+  <!--<crm>Url=https://aenor.crm4.dynamics.com; Username=indra4@aenor.com; Password=DynamicsAdmin18; authtype=Office365</crm>-->
+  <!--<crm>Url=https://aenorpreproduccion.crm4.dynamics.com; Username=indra4@aenor.com; Password=DynamicsAdmin18; authtype=Office365</crm>-->
+  <buffer>200</buffer>
+  <gradoparalelismo>15</gradoparalelismo>
+  <timeoutminutos>15</timeoutminutos>
+  <defaultconnectionlimit>100</defaultconnectionlimit>
+  <logtextowebjob>false</logtextowebjob>
+</config>
